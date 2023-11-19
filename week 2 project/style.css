@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+
+}
+.navbar ul{
+    list-style-type: square;
+    background-color:black ;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+}
+.navbar li{
+    float:left ;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Home.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Contact.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about {
+    text-align: center;
+    -webkit-box-reflect: below;
+    color: yellow;
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(./About.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Mireille {
+
+color: yellow;
+font-size: xx-large;
+text-align: left;
+text-decoration-line: underline;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+
+.button{
+    color: yellow;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.input{
+    color: yellow;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;  
+
+
+}
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+
+        opacity: 1;
+    }
+    70%{
+
+        opacity: 1;
+    } 
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+       sans-serIf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
